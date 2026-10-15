@@ -44,10 +44,10 @@ timestamped rubric review via Claude Code.<br><br>
 </td>
 <td width="50%" valign="top">
 
-**[📊 trade-setup](https://github.com/PiratedVirus/trade-setup)**<br>
-Systematic swing-trading research and signal-generation backend for NSE equities: backtests, risk sizing,
-signal reports. Research only, no order placement.<br><br>
-`Python` `pandas` `backtesting`
+**[🧭 Arc Palette for Safari](https://github.com/PiratedVirus/ArcPalette)**<br>
+Arc's command bar in Safari: ⌘T searches open tabs, history, actions and the web from one box. Split View,
+auto-archive, light/dark frosted glass.<br><br>
+`JavaScript` `Safari Web Extension` `Swift`
 
 </td>
 </tr>
@@ -61,9 +61,10 @@ Chrome extension adding a virtual calculator and YouTube-style picture-in-pictur
 </td>
 <td width="50%" valign="top">
 
-**[🧾 ProcessWise](https://github.com/PiratedVirus/processwise)**<br>
-Document processing with OCR on Next.js and Azure Functions.<br><br>
-`TypeScript` `Next.js` `Azure Functions`
+**[📊 trade-setup](https://github.com/PiratedVirus/trade-setup)**<br>
+Systematic swing-trading research and signal-generation backend for NSE equities: backtests, risk sizing,
+signal reports. Research only, no order placement.<br><br>
+`Python` `pandas` `backtesting`
 
 </td>
 </tr>
