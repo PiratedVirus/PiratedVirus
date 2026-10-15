@@ -2,28 +2,28 @@
 <style>
 text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;font-size:17px}
 .prompt{fill:#59636e} .fg{fill:#1f2328;font-weight:600} .accent{fill:#0969da} .green{fill:#1a7f37}
-@keyframes type{from{width:0}to{width:860px}}
 @keyframes blink{50%{opacity:0}}
-@keyframes show{to{opacity:1}}
 .cursor{animation:blink 1s steps(1) infinite}
+@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes appear{from{opacity:0}to{opacity:1}}
+.l0{animation:type .8s steps(36) 0.3s backwards}
+.l1{animation:type .8s steps(36) 1.2s backwards}
+.l2{animation:type .8s steps(36) 2.1s backwards}
+.l3{animation:type .8s steps(36) 3.0s backwards}
+.l4{animation:type .8s steps(36) 3.9s backwards}
+.l5{animation:type .8s steps(36) 4.8s backwards}
+.last{animation:appear .01s 5.7s backwards}
+@media (prefers-reduced-motion:reduce){.l0,.l1,.l2,.l3,.l4,.l5,.last{animation:none}}
 </style>
 <rect x="1" y="1" width="898" height="280" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
 <line x1="1" y1="42" x2="899" y2="42" stroke="#d0d7de"/>
 <circle cx="26" cy="22" r="6.5" fill="#cf222e"/><circle cx="48" cy="22" r="6.5" fill="#9a6700"/><circle cx="70" cy="22" r="6.5" fill="#1a7f37"/>
 <text x="450.0" y="27" text-anchor="middle" class="prompt" style="font-size:13px">~/saurabh — zsh</text>
-<defs>
-<clipPath id="c0"><rect x="24" y="58" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="0.3s" dur="0.8s" fill="freeze"/></rect></clipPath>
-<clipPath id="c1"><rect x="24" y="88" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="1.2s" dur="0.8s" fill="freeze"/></rect></clipPath>
-<clipPath id="c2"><rect x="24" y="118" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="2.1s" dur="0.8s" fill="freeze"/></rect></clipPath>
-<clipPath id="c3"><rect x="24" y="148" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="3.0s" dur="0.8s" fill="freeze"/></rect></clipPath>
-<clipPath id="c4"><rect x="24" y="178" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="3.9s" dur="0.8s" fill="freeze"/></rect></clipPath>
-<clipPath id="c5"><rect x="24" y="208" height="28" width="0"><animate attributeName="width" from="0" to="860" begin="4.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
-</defs>
-<text x="28" y="78" class="prompt" clip-path="url(#c0)">$ whoami</text>
-<text x="28" y="108" class="fg" clip-path="url(#c1)">Saurabh Kulkarni — Software Engineer (SDE-2) @ Dell Technologies</text>
-<text x="28" y="138" class="prompt" clip-path="url(#c2)">$ cat focus.txt</text>
-<text x="28" y="168" class="accent" clip-path="url(#c3)">event-driven systems · real-time pipelines · developer tools</text>
-<text x="28" y="198" class="prompt" clip-path="url(#c4)">$ ./benchmark --cache</text>
-<text x="28" y="228" class="green" clip-path="url(#c5)">dashboard latency on cache hits: 43.5ms → 0.4ms   ✓ shipped</text>
-<text x="28" y="258" class="prompt" opacity="0">$ <tspan class="cursor" fill="#0969da">▋</tspan><animate attributeName="opacity" to="1" begin="5.7s" dur="0.01s" fill="freeze"/></text>
+<text x="28" y="78" class="prompt l0">$ whoami</text>
+<text x="28" y="108" class="fg l1">Saurabh Kulkarni — Software Engineer (SDE-2) @ Dell Technologies</text>
+<text x="28" y="138" class="prompt l2">$ cat focus.txt</text>
+<text x="28" y="168" class="accent l3">event-driven systems · real-time pipelines · developer tools</text>
+<text x="28" y="198" class="prompt l4">$ ./benchmark --cache</text>
+<text x="28" y="228" class="green l5">dashboard latency on cache hits: 43.5ms → 0.4ms   ✓ shipped</text>
+<text x="28" y="258" class="prompt last">$ <tspan class="cursor" fill="#0969da">▋</tspan></text>
 </svg>
