@@ -4,16 +4,6 @@ text{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;
 .prompt{fill:#59636e} .fg{fill:#1f2328;font-weight:600} .accent{fill:#0969da} .green{fill:#1a7f37}
 @keyframes blink{50%{opacity:0}}
 .cursor{animation:blink 1s steps(1) infinite}
-@keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-@keyframes appear{from{opacity:0}to{opacity:1}}
-.l0{animation:type .8s steps(36) 0.3s backwards}
-.l1{animation:type .8s steps(36) 1.2s backwards}
-.l2{animation:type .8s steps(36) 2.1s backwards}
-.l3{animation:type .8s steps(36) 3.0s backwards}
-.l4{animation:type .8s steps(36) 3.9s backwards}
-.l5{animation:type .8s steps(36) 4.8s backwards}
-.last{animation:appear .01s 5.7s backwards}
-@media (prefers-reduced-motion:reduce){.l0,.l1,.l2,.l3,.l4,.l5,.last{animation:none}}
 </style>
 <rect x="1" y="1" width="898" height="280" rx="14" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
 <line x1="1" y1="42" x2="899" y2="42" stroke="#d0d7de"/>
